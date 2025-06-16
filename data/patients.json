@@ -1,0 +1,2282 @@
+[
+  {
+    "patient_id": "91ad0cb9-4d57-465c-9971-bc56a882a36a",
+    "medical_record_number": "MRN10818246",
+    "first_name": "Jason",
+    "last_name": "Sanchez",
+    "age": 10,
+    "gender": "Male",
+    "department": "Pediatrics",
+    "room": "D197",
+    "admission_date": "2025-06-03T13:46:40.342812",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Epilepsy",
+    "vitals": {
+      "heart_rate": 109,
+      "blood_pressure": "88/77",
+      "temperature": 36.6,
+      "respiratory_rate": 29,
+      "oxygen_saturation": 99,
+      "timestamp": "2025-06-16T13:46:40.342834"
+    },
+    "risk_score": 6,
+    "risk_assessment": {
+      "risk_level": "Medium",
+      "risk_score": 6,
+      "factors": {
+        "age_score": 0,
+        "heart_rate_score": 2,
+        "blood_pressure_score": 3,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 0,
+        "length_of_stay_score": 1
+      },
+      "last_updated": "2025-06-16T13:46:40.346730"
+    },
+    "risk_level": "Medium"
+  },
+  {
+    "patient_id": "d36db341-48f0-48f3-b035-5f42b53e080b",
+    "medical_record_number": "MRN10326894",
+    "first_name": "Sarah",
+    "last_name": "Brooks",
+    "age": 40,
+    "gender": "Female",
+    "department": "Neurology",
+    "room": "A273",
+    "admission_date": "2025-06-02T13:46:40.342998",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Fracture",
+    "vitals": {
+      "heart_rate": 75,
+      "blood_pressure": "109/80",
+      "temperature": 36.6,
+      "respiratory_rate": 19,
+      "oxygen_saturation": 92,
+      "timestamp": "2025-06-16T13:46:40.343008"
+    },
+    "risk_score": 4,
+    "risk_assessment": {
+      "risk_level": "Medium",
+      "risk_score": 4,
+      "factors": {
+        "age_score": 0,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 1,
+        "department_score": 2,
+        "length_of_stay_score": 1
+      },
+      "last_updated": "2025-06-16T13:46:40.346734"
+    },
+    "risk_level": "Medium"
+  },
+  {
+    "patient_id": "43b1c476-d33d-495e-a2e0-c3bb7d504533",
+    "medical_record_number": "MRN67820299",
+    "first_name": "Kara",
+    "last_name": "Johnson",
+    "age": 3,
+    "gender": "Female",
+    "department": "Neurology",
+    "room": "D582",
+    "admission_date": "2025-06-06T13:46:40.343097",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Lung Cancer",
+    "vitals": {
+      "heart_rate": 80,
+      "blood_pressure": "89/51",
+      "temperature": 37.1,
+      "respiratory_rate": 22,
+      "oxygen_saturation": 98,
+      "timestamp": "2025-06-16T13:46:40.343105"
+    },
+    "risk_score": 6,
+    "risk_assessment": {
+      "risk_level": "Medium",
+      "risk_score": 6,
+      "factors": {
+        "age_score": 0,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 3,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 2,
+        "length_of_stay_score": 1
+      },
+      "last_updated": "2025-06-16T13:46:40.346737"
+    },
+    "risk_level": "Medium"
+  },
+  {
+    "patient_id": "7c969c22-2a98-4fb8-9ede-e3d0cffb3f9c",
+    "medical_record_number": "MRN94108949",
+    "first_name": "Timothy",
+    "last_name": "Smith",
+    "age": 39,
+    "gender": "Male",
+    "department": "Orthopedics",
+    "room": "A162",
+    "admission_date": "2025-06-05T13:46:40.343179",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Leukemia",
+    "vitals": {
+      "heart_rate": 64,
+      "blood_pressure": "97/72",
+      "temperature": 36.8,
+      "respiratory_rate": 20,
+      "oxygen_saturation": 93,
+      "timestamp": "2025-06-16T13:46:40.343187"
+    },
+    "risk_score": 4,
+    "risk_assessment": {
+      "risk_level": "Medium",
+      "risk_score": 4,
+      "factors": {
+        "age_score": 0,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 2,
+        "temperature_score": 0,
+        "oxygen_score": 1,
+        "department_score": 0,
+        "length_of_stay_score": 1
+      },
+      "last_updated": "2025-06-16T13:46:40.346740"
+    },
+    "risk_level": "Medium"
+  },
+  {
+    "patient_id": "446febcc-5386-40a3-8198-86b5731fabc9",
+    "medical_record_number": "MRN37031280",
+    "first_name": "Courtney",
+    "last_name": "Bell",
+    "age": 44,
+    "gender": "Female",
+    "department": "Emergency",
+    "room": "A136",
+    "admission_date": "2025-06-07T13:46:40.343255",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Heart Failure",
+    "vitals": {
+      "heart_rate": 91,
+      "blood_pressure": "116/68",
+      "temperature": 36.7,
+      "respiratory_rate": 16,
+      "oxygen_saturation": 92,
+      "timestamp": "2025-06-16T13:46:40.343262"
+    },
+    "risk_score": 4,
+    "risk_assessment": {
+      "risk_level": "Medium",
+      "risk_score": 4,
+      "factors": {
+        "age_score": 1,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 1,
+        "department_score": 1,
+        "length_of_stay_score": 1
+      },
+      "last_updated": "2025-06-16T13:46:40.346743"
+    },
+    "risk_level": "Medium"
+  },
+  {
+    "patient_id": "b31c746e-4ce6-4414-b696-c69c0ab54088",
+    "medical_record_number": "MRN51478669",
+    "first_name": "Sheila",
+    "last_name": "Watkins",
+    "age": 98,
+    "gender": "Female",
+    "department": "Oncology",
+    "room": "D502",
+    "admission_date": "2025-06-02T13:46:40.343329",
+    "discharge_date": "2025-06-13T13:46:40.343329",
+    "status": "Discharged",
+    "diagnosis": "Ear Infection",
+    "vitals": {
+      "heart_rate": 99,
+      "blood_pressure": "122/64",
+      "temperature": 37.0,
+      "respiratory_rate": 14,
+      "oxygen_saturation": 91,
+      "timestamp": "2025-06-16T13:46:40.343338"
+    },
+    "risk_score": 6,
+    "risk_assessment": {
+      "risk_level": "Medium",
+      "risk_score": 6,
+      "factors": {
+        "age_score": 3,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 1,
+        "department_score": 1,
+        "length_of_stay_score": 1
+      },
+      "last_updated": "2025-06-16T13:46:40.346746"
+    },
+    "risk_level": "Medium"
+  },
+  {
+    "patient_id": "939f0359-827c-4f07-aefb-73ef3d722af9",
+    "medical_record_number": "MRN83775414",
+    "first_name": "Teresa",
+    "last_name": "Johnson",
+    "age": 59,
+    "gender": "Female",
+    "department": "Surgery",
+    "room": "C431",
+    "admission_date": "2025-06-03T13:46:40.343405",
+    "discharge_date": "2025-06-15T13:46:40.343405",
+    "status": "Discharged",
+    "diagnosis": "Gastroenteritis",
+    "vitals": {
+      "heart_rate": 76,
+      "blood_pressure": "99/84",
+      "temperature": 37.1,
+      "respiratory_rate": 13,
+      "oxygen_saturation": 100,
+      "timestamp": "2025-06-16T13:46:40.343414"
+    },
+    "risk_score": 5,
+    "risk_assessment": {
+      "risk_level": "Medium",
+      "risk_score": 5,
+      "factors": {
+        "age_score": 1,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 2,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 1,
+        "length_of_stay_score": 1
+      },
+      "last_updated": "2025-06-16T13:46:40.346749"
+    },
+    "risk_level": "Medium"
+  },
+  {
+    "patient_id": "bd463ab0-0105-438b-962c-025eeea72d49",
+    "medical_record_number": "MRN6457396",
+    "first_name": "Zachary",
+    "last_name": "Frazier",
+    "age": 93,
+    "gender": "Male",
+    "department": "Oncology",
+    "room": "C268",
+    "admission_date": "2025-06-05T13:46:40.343483",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Stroke",
+    "vitals": {
+      "heart_rate": 65,
+      "blood_pressure": "133/92",
+      "temperature": 36.8,
+      "respiratory_rate": 18,
+      "oxygen_saturation": 94,
+      "timestamp": "2025-06-16T13:46:40.343491"
+    },
+    "risk_score": 5,
+    "risk_assessment": {
+      "risk_level": "Medium",
+      "risk_score": 5,
+      "factors": {
+        "age_score": 3,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 1,
+        "length_of_stay_score": 1
+      },
+      "last_updated": "2025-06-16T13:46:40.346752"
+    },
+    "risk_level": "Medium"
+  },
+  {
+    "patient_id": "f27dc599-bae2-49c8-ba31-1800ec59bf12",
+    "medical_record_number": "MRN79669854",
+    "first_name": "Kelly",
+    "last_name": "Brown",
+    "age": 97,
+    "gender": "Female",
+    "department": "Intensive Care Unit (ICU)",
+    "room": "C345",
+    "admission_date": "2025-06-02T13:46:40.343559",
+    "discharge_date": "2025-06-10T13:46:40.343559",
+    "status": "Discharged",
+    "diagnosis": "Fracture",
+    "vitals": {
+      "heart_rate": 79,
+      "blood_pressure": "99/85",
+      "temperature": 37.1,
+      "respiratory_rate": 13,
+      "oxygen_saturation": 95,
+      "timestamp": "2025-06-16T13:46:40.343567"
+    },
+    "risk_score": 8,
+    "risk_assessment": {
+      "risk_level": "High",
+      "risk_score": 8,
+      "factors": {
+        "age_score": 3,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 2,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 2,
+        "length_of_stay_score": 1
+      },
+      "last_updated": "2025-06-16T13:46:40.346754"
+    },
+    "risk_level": "High"
+  },
+  {
+    "patient_id": "1335ad4b-0d22-4814-a03e-f7187984e261",
+    "medical_record_number": "MRN58934072",
+    "first_name": "Clayton",
+    "last_name": "Murray",
+    "age": 56,
+    "gender": "Male",
+    "department": "Oncology",
+    "room": "C102",
+    "admission_date": "2025-06-02T13:46:40.343641",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Arrhythmia",
+    "vitals": {
+      "heart_rate": 85,
+      "blood_pressure": "100/77",
+      "temperature": 36.9,
+      "respiratory_rate": 13,
+      "oxygen_saturation": 93,
+      "timestamp": "2025-06-16T13:46:40.343648"
+    },
+    "risk_score": 4,
+    "risk_assessment": {
+      "risk_level": "Medium",
+      "risk_score": 4,
+      "factors": {
+        "age_score": 1,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 1,
+        "department_score": 1,
+        "length_of_stay_score": 1
+      },
+      "last_updated": "2025-06-16T13:46:40.346757"
+    },
+    "risk_level": "Medium"
+  },
+  {
+    "patient_id": "3d827782-bdf8-49d8-b6ed-16f254428a30",
+    "medical_record_number": "MRN29953762",
+    "first_name": "Michael",
+    "last_name": "Smith",
+    "age": 44,
+    "gender": "Male",
+    "department": "Maternity",
+    "room": "C387",
+    "admission_date": "2025-06-09T13:46:40.343716",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Gastroenteritis",
+    "vitals": {
+      "heart_rate": 89,
+      "blood_pressure": "142/68",
+      "temperature": 36.8,
+      "respiratory_rate": 20,
+      "oxygen_saturation": 94,
+      "timestamp": "2025-06-16T13:46:40.343724"
+    },
+    "risk_score": 3,
+    "risk_assessment": {
+      "risk_level": "Low",
+      "risk_score": 3,
+      "factors": {
+        "age_score": 1,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 2,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 0,
+        "length_of_stay_score": 0
+      },
+      "last_updated": "2025-06-16T13:46:40.346760"
+    },
+    "risk_level": "Low"
+  },
+  {
+    "patient_id": "48865c01-5128-492f-bbe6-44abab462ac4",
+    "medical_record_number": "MRN65475355",
+    "first_name": "Nancy",
+    "last_name": "Santiago",
+    "age": 14,
+    "gender": "Female",
+    "department": "Orthopedics",
+    "room": "C551",
+    "admission_date": "2025-06-13T13:46:40.343791",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Hypertension",
+    "vitals": {
+      "heart_rate": 78,
+      "blood_pressure": "97/77",
+      "temperature": 36.9,
+      "respiratory_rate": 12,
+      "oxygen_saturation": 94,
+      "timestamp": "2025-06-16T13:46:40.343799"
+    },
+    "risk_score": 2,
+    "risk_assessment": {
+      "risk_level": "Low",
+      "risk_score": 2,
+      "factors": {
+        "age_score": 0,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 2,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 0,
+        "length_of_stay_score": 0
+      },
+      "last_updated": "2025-06-16T13:46:40.346763"
+    },
+    "risk_level": "Low"
+  },
+  {
+    "patient_id": "479187e1-05d1-45ff-a626-a84ce71cdb2a",
+    "medical_record_number": "MRN23474318",
+    "first_name": "Patricia",
+    "last_name": "Murillo",
+    "age": 62,
+    "gender": "Female",
+    "department": "Emergency",
+    "room": "C214",
+    "admission_date": "2025-06-12T13:46:40.343867",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Lymphoma",
+    "vitals": {
+      "heart_rate": 62,
+      "blood_pressure": "114/66",
+      "temperature": 37.0,
+      "respiratory_rate": 16,
+      "oxygen_saturation": 98,
+      "timestamp": "2025-06-16T13:46:40.343875"
+    },
+    "risk_score": 3,
+    "risk_assessment": {
+      "risk_level": "Low",
+      "risk_score": 3,
+      "factors": {
+        "age_score": 2,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 1,
+        "length_of_stay_score": 0
+      },
+      "last_updated": "2025-06-16T13:46:40.346766"
+    },
+    "risk_level": "Low"
+  },
+  {
+    "patient_id": "f16b18ef-d3d8-44d6-b8e7-d2b18eda28aa",
+    "medical_record_number": "MRN24458573",
+    "first_name": "Annette",
+    "last_name": "Carter",
+    "age": 64,
+    "gender": "Female",
+    "department": "Surgery",
+    "room": "B503",
+    "admission_date": "2025-06-12T13:46:40.343943",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Asthma",
+    "vitals": {
+      "heart_rate": 78,
+      "blood_pressure": "126/67",
+      "temperature": 37.0,
+      "respiratory_rate": 12,
+      "oxygen_saturation": 92,
+      "timestamp": "2025-06-16T13:46:40.343950"
+    },
+    "risk_score": 4,
+    "risk_assessment": {
+      "risk_level": "Medium",
+      "risk_score": 4,
+      "factors": {
+        "age_score": 2,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 1,
+        "department_score": 1,
+        "length_of_stay_score": 0
+      },
+      "last_updated": "2025-06-16T13:46:40.346768"
+    },
+    "risk_level": "Medium"
+  },
+  {
+    "patient_id": "3c3172ec-bc1a-4f62-92ac-21b630f98b8c",
+    "medical_record_number": "MRN44118722",
+    "first_name": "Kenneth",
+    "last_name": "Wells",
+    "age": 33,
+    "gender": "Male",
+    "department": "Oncology",
+    "room": "A550",
+    "admission_date": "2025-06-08T13:46:40.344018",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Asthma",
+    "vitals": {
+      "heart_rate": 67,
+      "blood_pressure": "114/60",
+      "temperature": 36.2,
+      "respiratory_rate": 14,
+      "oxygen_saturation": 93,
+      "timestamp": "2025-06-16T13:46:40.344026"
+    },
+    "risk_score": 3,
+    "risk_assessment": {
+      "risk_level": "Low",
+      "risk_score": 3,
+      "factors": {
+        "age_score": 0,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 1,
+        "department_score": 1,
+        "length_of_stay_score": 1
+      },
+      "last_updated": "2025-06-16T13:46:40.346771"
+    },
+    "risk_level": "Low"
+  },
+  {
+    "patient_id": "ff48630b-e5a2-4e1a-9497-3251c9287eb3",
+    "medical_record_number": "MRN47135792",
+    "first_name": "Darren",
+    "last_name": "Hansen",
+    "age": 32,
+    "gender": "Male",
+    "department": "Neurology",
+    "room": "C484",
+    "admission_date": "2025-06-07T13:46:40.344093",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Lung Cancer",
+    "vitals": {
+      "heart_rate": 71,
+      "blood_pressure": "86/64",
+      "temperature": 36.4,
+      "respiratory_rate": 12,
+      "oxygen_saturation": 97,
+      "timestamp": "2025-06-16T13:46:40.344100"
+    },
+    "risk_score": 6,
+    "risk_assessment": {
+      "risk_level": "Medium",
+      "risk_score": 6,
+      "factors": {
+        "age_score": 0,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 3,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 2,
+        "length_of_stay_score": 1
+      },
+      "last_updated": "2025-06-16T13:46:40.346774"
+    },
+    "risk_level": "Medium"
+  },
+  {
+    "patient_id": "2b877644-ead8-4c82-a3e1-b8b6c1eb5872",
+    "medical_record_number": "MRN5672308",
+    "first_name": "Michelle",
+    "last_name": "Jenkins",
+    "age": 17,
+    "gender": "Female",
+    "department": "Cardiology",
+    "room": "B263",
+    "admission_date": "2025-06-04T13:46:40.344168",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Parkinson's",
+    "vitals": {
+      "heart_rate": 73,
+      "blood_pressure": "103/73",
+      "temperature": 36.7,
+      "respiratory_rate": 13,
+      "oxygen_saturation": 100,
+      "timestamp": "2025-06-16T13:46:40.344176"
+    },
+    "risk_score": 3,
+    "risk_assessment": {
+      "risk_level": "Low",
+      "risk_score": 3,
+      "factors": {
+        "age_score": 0,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 2,
+        "length_of_stay_score": 1
+      },
+      "last_updated": "2025-06-16T13:46:40.346776"
+    },
+    "risk_level": "Low"
+  },
+  {
+    "patient_id": "77968841-87f9-4239-a06c-fbda6541fd43",
+    "medical_record_number": "MRN36588168",
+    "first_name": "Brandy",
+    "last_name": "Sutton",
+    "age": 99,
+    "gender": "Female",
+    "department": "Maternity",
+    "room": "D389",
+    "admission_date": "2025-06-08T13:46:40.344245",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Ear Infection",
+    "vitals": {
+      "heart_rate": 98,
+      "blood_pressure": "105/81",
+      "temperature": 36.5,
+      "respiratory_rate": 13,
+      "oxygen_saturation": 91,
+      "timestamp": "2025-06-16T13:46:40.344252"
+    },
+    "risk_score": 5,
+    "risk_assessment": {
+      "risk_level": "Medium",
+      "risk_score": 5,
+      "factors": {
+        "age_score": 3,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 1,
+        "department_score": 0,
+        "length_of_stay_score": 1
+      },
+      "last_updated": "2025-06-16T13:46:40.346779"
+    },
+    "risk_level": "Medium"
+  },
+  {
+    "patient_id": "4c0f9899-2d48-476b-bc2e-b7eee69b3efa",
+    "medical_record_number": "MRN69611570",
+    "first_name": "Alexander",
+    "last_name": "Ramirez",
+    "age": 81,
+    "gender": "Male",
+    "department": "Surgery",
+    "room": "D126",
+    "admission_date": "2025-06-10T13:46:40.344321",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Gastroenteritis",
+    "vitals": {
+      "heart_rate": 74,
+      "blood_pressure": "104/59",
+      "temperature": 37.2,
+      "respiratory_rate": 19,
+      "oxygen_saturation": 94,
+      "timestamp": "2025-06-16T13:46:40.344328"
+    },
+    "risk_score": 4,
+    "risk_assessment": {
+      "risk_level": "Medium",
+      "risk_score": 4,
+      "factors": {
+        "age_score": 3,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 1,
+        "length_of_stay_score": 0
+      },
+      "last_updated": "2025-06-16T13:46:40.346781"
+    },
+    "risk_level": "Medium"
+  },
+  {
+    "patient_id": "31ab9311-3014-41db-bba0-6823f8eedcc3",
+    "medical_record_number": "MRN70160018",
+    "first_name": "Carly",
+    "last_name": "Roberts",
+    "age": 2,
+    "gender": "Female",
+    "department": "Emergency",
+    "room": "B494",
+    "admission_date": "2025-06-10T13:46:40.344395",
+    "discharge_date": "2025-06-14T13:46:40.344395",
+    "status": "Discharged",
+    "diagnosis": "Coronary Artery Disease",
+    "vitals": {
+      "heart_rate": 87,
+      "blood_pressure": "99/66",
+      "temperature": 37.1,
+      "respiratory_rate": 19,
+      "oxygen_saturation": 93,
+      "timestamp": "2025-06-16T13:46:40.344403"
+    },
+    "risk_score": 4,
+    "risk_assessment": {
+      "risk_level": "Low",
+      "risk_score": 4,
+      "factors": {
+        "age_score": 0,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 2,
+        "temperature_score": 0,
+        "oxygen_score": 1,
+        "department_score": 1,
+        "length_of_stay_score": 0
+      },
+      "last_updated": "2025-06-16T13:46:40.346784"
+    },
+    "risk_level": "Low"
+  },
+  {
+    "patient_id": "bc2892f8-b2c6-4af1-a101-aa4de89fc619",
+    "medical_record_number": "MRN44288087",
+    "first_name": "Angel",
+    "last_name": "Sanchez",
+    "age": 9,
+    "gender": "Female",
+    "department": "Neurology",
+    "room": "C391",
+    "admission_date": "2025-06-05T13:46:40.344472",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Heart Failure",
+    "vitals": {
+      "heart_rate": 68,
+      "blood_pressure": "84/53",
+      "temperature": 36.8,
+      "respiratory_rate": 28,
+      "oxygen_saturation": 92,
+      "timestamp": "2025-06-16T13:46:40.344479"
+    },
+    "risk_score": 7,
+    "risk_assessment": {
+      "risk_level": "High",
+      "risk_score": 7,
+      "factors": {
+        "age_score": 0,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 3,
+        "temperature_score": 0,
+        "oxygen_score": 1,
+        "department_score": 2,
+        "length_of_stay_score": 1
+      },
+      "last_updated": "2025-06-16T13:46:40.346787"
+    },
+    "risk_level": "High"
+  },
+  {
+    "patient_id": "ad1c687f-7b91-46fe-b69e-bfac0fa5a7a3",
+    "medical_record_number": "MRN77472469",
+    "first_name": "Lori",
+    "last_name": "Miller",
+    "age": 78,
+    "gender": "Female",
+    "department": "Emergency",
+    "room": "A320",
+    "admission_date": "2025-06-16T13:46:40.344547",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Breast Cancer",
+    "vitals": {
+      "heart_rate": 93,
+      "blood_pressure": "133/88",
+      "temperature": 37.1,
+      "respiratory_rate": 17,
+      "oxygen_saturation": 93,
+      "timestamp": "2025-06-16T13:46:40.344555"
+    },
+    "risk_score": 5,
+    "risk_assessment": {
+      "risk_level": "Medium",
+      "risk_score": 5,
+      "factors": {
+        "age_score": 3,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 1,
+        "department_score": 1,
+        "length_of_stay_score": 0
+      },
+      "last_updated": "2025-06-16T13:46:40.346789"
+    },
+    "risk_level": "Medium"
+  },
+  {
+    "patient_id": "9fccec71-b308-49fe-8921-58c9fab82029",
+    "medical_record_number": "MRN11674535",
+    "first_name": "Christopher",
+    "last_name": "Shaw",
+    "age": 62,
+    "gender": "Male",
+    "department": "Surgery",
+    "room": "D525",
+    "admission_date": "2025-06-11T13:46:40.344623",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Ear Infection",
+    "vitals": {
+      "heart_rate": 95,
+      "blood_pressure": "101/82",
+      "temperature": 37.0,
+      "respiratory_rate": 14,
+      "oxygen_saturation": 97,
+      "timestamp": "2025-06-16T13:46:40.344631"
+    },
+    "risk_score": 3,
+    "risk_assessment": {
+      "risk_level": "Low",
+      "risk_score": 3,
+      "factors": {
+        "age_score": 2,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 1,
+        "length_of_stay_score": 0
+      },
+      "last_updated": "2025-06-16T13:46:40.346792"
+    },
+    "risk_level": "Low"
+  },
+  {
+    "patient_id": "e945d8bb-3591-4419-ad9b-4232c5bc67e7",
+    "medical_record_number": "MRN27461633",
+    "first_name": "Katelyn",
+    "last_name": "Wilcox",
+    "age": 64,
+    "gender": "Female",
+    "department": "Oncology",
+    "room": "D318",
+    "admission_date": "2025-06-08T13:46:40.344699",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Asthma",
+    "vitals": {
+      "heart_rate": 81,
+      "blood_pressure": "128/81",
+      "temperature": 37.2,
+      "respiratory_rate": 13,
+      "oxygen_saturation": 91,
+      "timestamp": "2025-06-16T13:46:40.344706"
+    },
+    "risk_score": 5,
+    "risk_assessment": {
+      "risk_level": "Medium",
+      "risk_score": 5,
+      "factors": {
+        "age_score": 2,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 1,
+        "department_score": 1,
+        "length_of_stay_score": 1
+      },
+      "last_updated": "2025-06-16T13:46:40.346795"
+    },
+    "risk_level": "Medium"
+  },
+  {
+    "patient_id": "7c3993e4-9832-47aa-ba62-96f983eab9bf",
+    "medical_record_number": "MRN57785624",
+    "first_name": "Melinda",
+    "last_name": "Byrd",
+    "age": 79,
+    "gender": "Female",
+    "department": "Orthopedics",
+    "room": "A190",
+    "admission_date": "2025-06-14T13:46:40.344774",
+    "discharge_date": "2025-06-18T13:46:40.344774",
+    "status": "Discharged",
+    "diagnosis": "Gastroenteritis",
+    "vitals": {
+      "heart_rate": 70,
+      "blood_pressure": "91/71",
+      "temperature": 36.5,
+      "respiratory_rate": 18,
+      "oxygen_saturation": 90,
+      "timestamp": "2025-06-16T13:46:40.344782"
+    },
+    "risk_score": 6,
+    "risk_assessment": {
+      "risk_level": "Medium",
+      "risk_score": 6,
+      "factors": {
+        "age_score": 3,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 2,
+        "temperature_score": 0,
+        "oxygen_score": 1,
+        "department_score": 0,
+        "length_of_stay_score": 0
+      },
+      "last_updated": "2025-06-16T13:46:40.346797"
+    },
+    "risk_level": "Medium"
+  },
+  {
+    "patient_id": "a7c7df1e-30c5-4d05-b14f-39ff56e44498",
+    "medical_record_number": "MRN3591119",
+    "first_name": "Andrew",
+    "last_name": "Maxwell",
+    "age": 29,
+    "gender": "Male",
+    "department": "Cardiology",
+    "room": "D505",
+    "admission_date": "2025-06-02T13:46:40.344849",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Bronchiolitis",
+    "vitals": {
+      "heart_rate": 94,
+      "blood_pressure": "95/66",
+      "temperature": 37.0,
+      "respiratory_rate": 16,
+      "oxygen_saturation": 100,
+      "timestamp": "2025-06-16T13:46:40.344856"
+    },
+    "risk_score": 5,
+    "risk_assessment": {
+      "risk_level": "Medium",
+      "risk_score": 5,
+      "factors": {
+        "age_score": 0,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 2,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 2,
+        "length_of_stay_score": 1
+      },
+      "last_updated": "2025-06-16T13:46:40.346800"
+    },
+    "risk_level": "Medium"
+  },
+  {
+    "patient_id": "b9cb45bb-228b-4ebb-abf0-28d0bc36b6ac",
+    "medical_record_number": "MRN15265001",
+    "first_name": "Gregory",
+    "last_name": "Hart",
+    "age": 93,
+    "gender": "Male",
+    "department": "Oncology",
+    "room": "B233",
+    "admission_date": "2025-06-04T13:46:40.344921",
+    "discharge_date": "2025-06-29T13:46:40.344921",
+    "status": "Discharged",
+    "diagnosis": "Breast Cancer",
+    "vitals": {
+      "heart_rate": 94,
+      "blood_pressure": "120/61",
+      "temperature": 37.0,
+      "respiratory_rate": 12,
+      "oxygen_saturation": 90,
+      "timestamp": "2025-06-16T13:46:40.344929"
+    },
+    "risk_score": 6,
+    "risk_assessment": {
+      "risk_level": "Medium",
+      "risk_score": 6,
+      "factors": {
+        "age_score": 3,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 1,
+        "department_score": 1,
+        "length_of_stay_score": 1
+      },
+      "last_updated": "2025-06-16T13:46:40.346802"
+    },
+    "risk_level": "Medium"
+  },
+  {
+    "patient_id": "e92b1df2-548f-4809-b063-10e4494b87fb",
+    "medical_record_number": "MRN61348589",
+    "first_name": "Kathy",
+    "last_name": "Smith",
+    "age": 12,
+    "gender": "Female",
+    "department": "Radiology",
+    "room": "B502",
+    "admission_date": "2025-06-14T13:46:40.344996",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Parkinson's",
+    "vitals": {
+      "heart_rate": 70,
+      "blood_pressure": "91/83",
+      "temperature": 36.7,
+      "respiratory_rate": 18,
+      "oxygen_saturation": 91,
+      "timestamp": "2025-06-16T13:46:40.345004"
+    },
+    "risk_score": 3,
+    "risk_assessment": {
+      "risk_level": "Low",
+      "risk_score": 3,
+      "factors": {
+        "age_score": 0,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 2,
+        "temperature_score": 0,
+        "oxygen_score": 1,
+        "department_score": 0,
+        "length_of_stay_score": 0
+      },
+      "last_updated": "2025-06-16T13:46:40.346805"
+    },
+    "risk_level": "Low"
+  },
+  {
+    "patient_id": "906f5d77-17c3-4fd9-b4f6-80a89907c200",
+    "medical_record_number": "MRN31249443",
+    "first_name": "Melissa",
+    "last_name": "Sanchez",
+    "age": 32,
+    "gender": "Female",
+    "department": "Orthopedics",
+    "room": "C166",
+    "admission_date": "2025-06-11T13:46:40.345074",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Lung Cancer",
+    "vitals": {
+      "heart_rate": 86,
+      "blood_pressure": "138/70",
+      "temperature": 36.8,
+      "respiratory_rate": 18,
+      "oxygen_saturation": 95,
+      "timestamp": "2025-06-16T13:46:40.345081"
+    },
+    "risk_score": 0,
+    "risk_assessment": {
+      "risk_level": "Low",
+      "risk_score": 0,
+      "factors": {
+        "age_score": 0,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 0,
+        "length_of_stay_score": 0
+      },
+      "last_updated": "2025-06-16T13:46:40.346808"
+    },
+    "risk_level": "Low"
+  },
+  {
+    "patient_id": "7d301515-eb25-4bf3-8ac1-a9ed77b99dfa",
+    "medical_record_number": "MRN29054936",
+    "first_name": "Valerie",
+    "last_name": "Jones",
+    "age": 20,
+    "gender": "Female",
+    "department": "Pediatrics",
+    "room": "C253",
+    "admission_date": "2025-06-04T13:46:40.345151",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Epilepsy",
+    "vitals": {
+      "heart_rate": 64,
+      "blood_pressure": "86/70",
+      "temperature": 37.0,
+      "respiratory_rate": 13,
+      "oxygen_saturation": 92,
+      "timestamp": "2025-06-16T13:46:40.345158"
+    },
+    "risk_score": 5,
+    "risk_assessment": {
+      "risk_level": "Medium",
+      "risk_score": 5,
+      "factors": {
+        "age_score": 0,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 3,
+        "temperature_score": 0,
+        "oxygen_score": 1,
+        "department_score": 0,
+        "length_of_stay_score": 1
+      },
+      "last_updated": "2025-06-16T13:46:40.346810"
+    },
+    "risk_level": "Medium"
+  },
+  {
+    "patient_id": "b438b2d8-2579-4028-8b9a-e9064e2a8fd6",
+    "medical_record_number": "MRN90089199",
+    "first_name": "Lisa",
+    "last_name": "Martinez",
+    "age": 87,
+    "gender": "Female",
+    "department": "Maternity",
+    "room": "A235",
+    "admission_date": "2025-06-02T13:46:40.345227",
+    "discharge_date": "2025-06-15T13:46:40.345227",
+    "status": "Discharged",
+    "diagnosis": "Burn",
+    "vitals": {
+      "heart_rate": 97,
+      "blood_pressure": "110/80",
+      "temperature": 36.2,
+      "respiratory_rate": 14,
+      "oxygen_saturation": 94,
+      "timestamp": "2025-06-16T13:46:40.345235"
+    },
+    "risk_score": 4,
+    "risk_assessment": {
+      "risk_level": "Medium",
+      "risk_score": 4,
+      "factors": {
+        "age_score": 3,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 0,
+        "length_of_stay_score": 1
+      },
+      "last_updated": "2025-06-16T13:46:40.346813"
+    },
+    "risk_level": "Medium"
+  },
+  {
+    "patient_id": "15711465-199e-4f9c-b997-2d193fc1ce36",
+    "medical_record_number": "MRN6687055",
+    "first_name": "Jason",
+    "last_name": "Daniel",
+    "age": 40,
+    "gender": "Male",
+    "department": "Orthopedics",
+    "room": "A360",
+    "admission_date": "2025-06-13T13:46:40.345306",
+    "discharge_date": "2025-06-21T13:46:40.345306",
+    "status": "Discharged",
+    "diagnosis": "Concussion",
+    "vitals": {
+      "heart_rate": 83,
+      "blood_pressure": "127/62",
+      "temperature": 36.1,
+      "respiratory_rate": 13,
+      "oxygen_saturation": 99,
+      "timestamp": "2025-06-16T13:46:40.345314"
+    },
+    "risk_score": 0,
+    "risk_assessment": {
+      "risk_level": "Low",
+      "risk_score": 0,
+      "factors": {
+        "age_score": 0,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 0,
+        "length_of_stay_score": 0
+      },
+      "last_updated": "2025-06-16T13:46:40.346816"
+    },
+    "risk_level": "Low"
+  },
+  {
+    "patient_id": "d982c146-855a-493e-932d-7c281ba40b35",
+    "medical_record_number": "MRN81241707",
+    "first_name": "Jeffrey",
+    "last_name": "George",
+    "age": 58,
+    "gender": "Male",
+    "department": "Maternity",
+    "room": "D492",
+    "admission_date": "2025-06-08T13:46:40.345383",
+    "discharge_date": "2025-07-05T13:46:40.345383",
+    "status": "Discharged",
+    "diagnosis": "Leukemia",
+    "vitals": {
+      "heart_rate": 66,
+      "blood_pressure": "119/72",
+      "temperature": 36.8,
+      "respiratory_rate": 18,
+      "oxygen_saturation": 95,
+      "timestamp": "2025-06-16T13:46:40.345391"
+    },
+    "risk_score": 2,
+    "risk_assessment": {
+      "risk_level": "Low",
+      "risk_score": 2,
+      "factors": {
+        "age_score": 1,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 0,
+        "length_of_stay_score": 1
+      },
+      "last_updated": "2025-06-16T13:46:40.346818"
+    },
+    "risk_level": "Low"
+  },
+  {
+    "patient_id": "70cd6134-9820-4361-ae3f-7b5802c4f95c",
+    "medical_record_number": "MRN19984532",
+    "first_name": "Keith",
+    "last_name": "Baker",
+    "age": 45,
+    "gender": "Male",
+    "department": "Orthopedics",
+    "room": "A160",
+    "admission_date": "2025-06-13T13:46:40.345459",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Stroke",
+    "vitals": {
+      "heart_rate": 68,
+      "blood_pressure": "127/86",
+      "temperature": 36.3,
+      "respiratory_rate": 14,
+      "oxygen_saturation": 96,
+      "timestamp": "2025-06-16T13:46:40.345467"
+    },
+    "risk_score": 1,
+    "risk_assessment": {
+      "risk_level": "Low",
+      "risk_score": 1,
+      "factors": {
+        "age_score": 1,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 0,
+        "length_of_stay_score": 0
+      },
+      "last_updated": "2025-06-16T13:46:40.346821"
+    },
+    "risk_level": "Low"
+  },
+  {
+    "patient_id": "c6794751-4ef6-44b3-ade2-4a0956ad000a",
+    "medical_record_number": "MRN91588812",
+    "first_name": "Tricia",
+    "last_name": "Porter",
+    "age": 62,
+    "gender": "Female",
+    "department": "Neurology",
+    "room": "C526",
+    "admission_date": "2025-06-08T13:46:40.345536",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Epilepsy",
+    "vitals": {
+      "heart_rate": 99,
+      "blood_pressure": "91/77",
+      "temperature": 36.9,
+      "respiratory_rate": 12,
+      "oxygen_saturation": 91,
+      "timestamp": "2025-06-16T13:46:40.345544"
+    },
+    "risk_score": 8,
+    "risk_assessment": {
+      "risk_level": "High",
+      "risk_score": 8,
+      "factors": {
+        "age_score": 2,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 2,
+        "temperature_score": 0,
+        "oxygen_score": 1,
+        "department_score": 2,
+        "length_of_stay_score": 1
+      },
+      "last_updated": "2025-06-16T13:46:40.346823"
+    },
+    "risk_level": "High"
+  },
+  {
+    "patient_id": "4350ccc5-bc41-4af2-8266-552e27ee5d7b",
+    "medical_record_number": "MRN69827470",
+    "first_name": "Howard",
+    "last_name": "Stevens",
+    "age": 93,
+    "gender": "Male",
+    "department": "Emergency",
+    "room": "D163",
+    "admission_date": "2025-06-14T13:46:40.345613",
+    "discharge_date": "2025-06-20T13:46:40.345613",
+    "status": "Discharged",
+    "diagnosis": "Ear Infection",
+    "vitals": {
+      "heart_rate": 93,
+      "blood_pressure": "128/61",
+      "temperature": 36.8,
+      "respiratory_rate": 13,
+      "oxygen_saturation": 97,
+      "timestamp": "2025-06-16T13:46:40.345622"
+    },
+    "risk_score": 4,
+    "risk_assessment": {
+      "risk_level": "Medium",
+      "risk_score": 4,
+      "factors": {
+        "age_score": 3,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 1,
+        "length_of_stay_score": 0
+      },
+      "last_updated": "2025-06-16T13:46:40.346826"
+    },
+    "risk_level": "Medium"
+  },
+  {
+    "patient_id": "9a0833af-fb44-44f2-bf6c-b4fa5563808c",
+    "medical_record_number": "MRN63690039",
+    "first_name": "Clinton",
+    "last_name": "Hall",
+    "age": 50,
+    "gender": "Male",
+    "department": "Surgery",
+    "room": "A367",
+    "admission_date": "2025-06-06T13:46:40.345691",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Fracture",
+    "vitals": {
+      "heart_rate": 84,
+      "blood_pressure": "106/93",
+      "temperature": 36.4,
+      "respiratory_rate": 18,
+      "oxygen_saturation": 90,
+      "timestamp": "2025-06-16T13:46:40.345699"
+    },
+    "risk_score": 4,
+    "risk_assessment": {
+      "risk_level": "Medium",
+      "risk_score": 4,
+      "factors": {
+        "age_score": 1,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 1,
+        "department_score": 1,
+        "length_of_stay_score": 1
+      },
+      "last_updated": "2025-06-16T13:46:40.346829"
+    },
+    "risk_level": "Medium"
+  },
+  {
+    "patient_id": "3d8442d0-300b-497e-9687-8c099e00fa06",
+    "medical_record_number": "MRN52727329",
+    "first_name": "Vincent",
+    "last_name": "Allen",
+    "age": 7,
+    "gender": "Male",
+    "department": "Surgery",
+    "room": "B471",
+    "admission_date": "2025-06-04T13:46:40.345767",
+    "discharge_date": "2025-06-30T13:46:40.345767",
+    "status": "Discharged",
+    "diagnosis": "Parkinson's",
+    "vitals": {
+      "heart_rate": 119,
+      "blood_pressure": "100/52",
+      "temperature": 36.4,
+      "respiratory_rate": 18,
+      "oxygen_saturation": 98,
+      "timestamp": "2025-06-16T13:46:40.345775"
+    },
+    "risk_score": 4,
+    "risk_assessment": {
+      "risk_level": "Medium",
+      "risk_score": 4,
+      "factors": {
+        "age_score": 0,
+        "heart_rate_score": 2,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 1,
+        "length_of_stay_score": 1
+      },
+      "last_updated": "2025-06-16T13:46:40.346831"
+    },
+    "risk_level": "Medium"
+  },
+  {
+    "patient_id": "720097ab-1f68-429e-b03a-d6b1fda74a48",
+    "medical_record_number": "MRN39658482",
+    "first_name": "Paul",
+    "last_name": "Garcia",
+    "age": 89,
+    "gender": "Male",
+    "department": "Intensive Care Unit (ICU)",
+    "room": "B590",
+    "admission_date": "2025-06-11T13:46:40.345845",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Ear Infection",
+    "vitals": {
+      "heart_rate": 70,
+      "blood_pressure": "121/63",
+      "temperature": 37.1,
+      "respiratory_rate": 16,
+      "oxygen_saturation": 93,
+      "timestamp": "2025-06-16T13:46:40.345852"
+    },
+    "risk_score": 6,
+    "risk_assessment": {
+      "risk_level": "Medium",
+      "risk_score": 6,
+      "factors": {
+        "age_score": 3,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 1,
+        "department_score": 2,
+        "length_of_stay_score": 0
+      },
+      "last_updated": "2025-06-16T13:46:40.346834"
+    },
+    "risk_level": "Medium"
+  },
+  {
+    "patient_id": "94758773-d4da-46d9-b92a-cddd189b70da",
+    "medical_record_number": "MRN98053043",
+    "first_name": "Amber",
+    "last_name": "Rodriguez",
+    "age": 9,
+    "gender": "Female",
+    "department": "Cardiology",
+    "room": "A445",
+    "admission_date": "2025-06-13T13:46:40.345920",
+    "discharge_date": "2025-07-11T13:46:40.345920",
+    "status": "Discharged",
+    "diagnosis": "Parkinson's",
+    "vitals": {
+      "heart_rate": 77,
+      "blood_pressure": "77/56",
+      "temperature": 36.0,
+      "respiratory_rate": 27,
+      "oxygen_saturation": 100,
+      "timestamp": "2025-06-16T13:46:40.345928"
+    },
+    "risk_score": 5,
+    "risk_assessment": {
+      "risk_level": "Medium",
+      "risk_score": 5,
+      "factors": {
+        "age_score": 0,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 3,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 2,
+        "length_of_stay_score": 0
+      },
+      "last_updated": "2025-06-16T13:46:40.346836"
+    },
+    "risk_level": "Medium"
+  },
+  {
+    "patient_id": "644b3850-92fe-4192-8aae-c2ad5dabbeae",
+    "medical_record_number": "MRN65891113",
+    "first_name": "Lori",
+    "last_name": "Peterson",
+    "age": 41,
+    "gender": "Female",
+    "department": "Emergency",
+    "room": "B453",
+    "admission_date": "2025-06-09T13:46:40.345997",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Fracture",
+    "vitals": {
+      "heart_rate": 70,
+      "blood_pressure": "87/89",
+      "temperature": 36.8,
+      "respiratory_rate": 20,
+      "oxygen_saturation": 99,
+      "timestamp": "2025-06-16T13:46:40.346004"
+    },
+    "risk_score": 5,
+    "risk_assessment": {
+      "risk_level": "Medium",
+      "risk_score": 5,
+      "factors": {
+        "age_score": 1,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 3,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 1,
+        "length_of_stay_score": 0
+      },
+      "last_updated": "2025-06-16T13:46:40.346839"
+    },
+    "risk_level": "Medium"
+  },
+  {
+    "patient_id": "71ccde4a-ea9d-4466-ace4-d14860dd0bca",
+    "medical_record_number": "MRN7072365",
+    "first_name": "Maria",
+    "last_name": "Garrett",
+    "age": 60,
+    "gender": "Female",
+    "department": "Emergency",
+    "room": "B246",
+    "admission_date": "2025-06-06T13:46:40.346070",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Burn",
+    "vitals": {
+      "heart_rate": 90,
+      "blood_pressure": "96/82",
+      "temperature": 36.5,
+      "respiratory_rate": 18,
+      "oxygen_saturation": 98,
+      "timestamp": "2025-06-16T13:46:40.346078"
+    },
+    "risk_score": 5,
+    "risk_assessment": {
+      "risk_level": "Medium",
+      "risk_score": 5,
+      "factors": {
+        "age_score": 1,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 2,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 1,
+        "length_of_stay_score": 1
+      },
+      "last_updated": "2025-06-16T13:46:40.346841"
+    },
+    "risk_level": "Medium"
+  },
+  {
+    "patient_id": "b8e33820-0252-4510-a235-2c3186215971",
+    "medical_record_number": "MRN75204117",
+    "first_name": "David",
+    "last_name": "Curtis",
+    "age": 6,
+    "gender": "Male",
+    "department": "Orthopedics",
+    "room": "C310",
+    "admission_date": "2025-06-02T13:46:40.346143",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Lymphoma",
+    "vitals": {
+      "heart_rate": 98,
+      "blood_pressure": "110/60",
+      "temperature": 36.4,
+      "respiratory_rate": 18,
+      "oxygen_saturation": 94,
+      "timestamp": "2025-06-16T13:46:40.346150"
+    },
+    "risk_score": 1,
+    "risk_assessment": {
+      "risk_level": "Low",
+      "risk_score": 1,
+      "factors": {
+        "age_score": 0,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 0,
+        "length_of_stay_score": 1
+      },
+      "last_updated": "2025-06-16T13:46:40.346844"
+    },
+    "risk_level": "Low"
+  },
+  {
+    "patient_id": "260827e0-6947-4511-8fe0-beb88e8aa417",
+    "medical_record_number": "MRN6302",
+    "first_name": "Eric",
+    "last_name": "Christian",
+    "age": 69,
+    "gender": "Male",
+    "department": "Surgery",
+    "room": "D598",
+    "admission_date": "2025-06-16T13:46:40.346216",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Laceration",
+    "vitals": {
+      "heart_rate": 90,
+      "blood_pressure": "100/69",
+      "temperature": 36.9,
+      "respiratory_rate": 20,
+      "oxygen_saturation": 100,
+      "timestamp": "2025-06-16T13:46:40.346223"
+    },
+    "risk_score": 3,
+    "risk_assessment": {
+      "risk_level": "Low",
+      "risk_score": 3,
+      "factors": {
+        "age_score": 2,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 1,
+        "length_of_stay_score": 0
+      },
+      "last_updated": "2025-06-16T13:46:40.346847"
+    },
+    "risk_level": "Low"
+  },
+  {
+    "patient_id": "8f9aa8c8-78e0-427c-b53c-cc57a773a295",
+    "medical_record_number": "MRN28164602",
+    "first_name": "Shelly",
+    "last_name": "Mclean",
+    "age": 45,
+    "gender": "Female",
+    "department": "Orthopedics",
+    "room": "C391",
+    "admission_date": "2025-06-08T13:46:40.346288",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Lung Cancer",
+    "vitals": {
+      "heart_rate": 95,
+      "blood_pressure": "125/79",
+      "temperature": 36.6,
+      "respiratory_rate": 18,
+      "oxygen_saturation": 100,
+      "timestamp": "2025-06-16T13:46:40.346295"
+    },
+    "risk_score": 2,
+    "risk_assessment": {
+      "risk_level": "Low",
+      "risk_score": 2,
+      "factors": {
+        "age_score": 1,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 0,
+        "length_of_stay_score": 1
+      },
+      "last_updated": "2025-06-16T13:46:40.346849"
+    },
+    "risk_level": "Low"
+  },
+  {
+    "patient_id": "a672e5b6-6bc7-401e-a880-4114edc8d990",
+    "medical_record_number": "MRN5579599",
+    "first_name": "Taylor",
+    "last_name": "Cruz",
+    "age": 9,
+    "gender": "Female",
+    "department": "Neurology",
+    "room": "B189",
+    "admission_date": "2025-06-05T13:46:40.346361",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Stroke",
+    "vitals": {
+      "heart_rate": 84,
+      "blood_pressure": "82/83",
+      "temperature": 36.2,
+      "respiratory_rate": 29,
+      "oxygen_saturation": 97,
+      "timestamp": "2025-06-16T13:46:40.346368"
+    },
+    "risk_score": 6,
+    "risk_assessment": {
+      "risk_level": "Medium",
+      "risk_score": 6,
+      "factors": {
+        "age_score": 0,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 3,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 2,
+        "length_of_stay_score": 1
+      },
+      "last_updated": "2025-06-16T13:46:40.346852"
+    },
+    "risk_level": "Medium"
+  },
+  {
+    "patient_id": "60f0b45c-f1aa-407b-86d8-47ad09b18f85",
+    "medical_record_number": "MRN88678930",
+    "first_name": "Tricia",
+    "last_name": "Velasquez",
+    "age": 35,
+    "gender": "Female",
+    "department": "Orthopedics",
+    "room": "A430",
+    "admission_date": "2025-06-09T13:46:40.346433",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Stroke",
+    "vitals": {
+      "heart_rate": 102,
+      "blood_pressure": "124/57",
+      "temperature": 36.4,
+      "respiratory_rate": 18,
+      "oxygen_saturation": 93,
+      "timestamp": "2025-06-16T13:46:40.346440"
+    },
+    "risk_score": 3,
+    "risk_assessment": {
+      "risk_level": "Low",
+      "risk_score": 3,
+      "factors": {
+        "age_score": 0,
+        "heart_rate_score": 2,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 1,
+        "department_score": 0,
+        "length_of_stay_score": 0
+      },
+      "last_updated": "2025-06-16T13:46:40.346855"
+    },
+    "risk_level": "Low"
+  },
+  {
+    "patient_id": "238b61fb-87cd-4c82-a086-72a39659db45",
+    "medical_record_number": "MRN84757119",
+    "first_name": "Juan",
+    "last_name": "Jones",
+    "age": 37,
+    "gender": "Male",
+    "department": "Cardiology",
+    "room": "B213",
+    "admission_date": "2025-06-07T13:46:40.346506",
+    "discharge_date": "2025-06-16T13:46:40.346506",
+    "status": "Discharged",
+    "diagnosis": "Leukemia",
+    "vitals": {
+      "heart_rate": 73,
+      "blood_pressure": "97/69",
+      "temperature": 36.3,
+      "respiratory_rate": 20,
+      "oxygen_saturation": 99,
+      "timestamp": "2025-06-16T13:46:40.346514"
+    },
+    "risk_score": 5,
+    "risk_assessment": {
+      "risk_level": "Medium",
+      "risk_score": 5,
+      "factors": {
+        "age_score": 0,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 2,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 2,
+        "length_of_stay_score": 1
+      },
+      "last_updated": "2025-06-16T13:46:40.346857"
+    },
+    "risk_level": "Medium"
+  },
+  {
+    "patient_id": "709dcde4-a7c3-4fef-a781-e121052425c6",
+    "medical_record_number": "MRN23264559",
+    "first_name": "Ellen",
+    "last_name": "Coleman",
+    "age": 46,
+    "gender": "Female",
+    "department": "Neurology",
+    "room": "C475",
+    "admission_date": "2025-06-11T13:46:40.346579",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Parkinson's",
+    "vitals": {
+      "heart_rate": 85,
+      "blood_pressure": "108/74",
+      "temperature": 36.5,
+      "respiratory_rate": 19,
+      "oxygen_saturation": 100,
+      "timestamp": "2025-06-16T13:46:40.346586"
+    },
+    "risk_score": 3,
+    "risk_assessment": {
+      "risk_level": "Low",
+      "risk_score": 3,
+      "factors": {
+        "age_score": 1,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 2,
+        "length_of_stay_score": 0
+      },
+      "last_updated": "2025-06-16T13:46:40.346860"
+    },
+    "risk_level": "Low"
+  },
+  {
+    "patient_id": "a22a68a7-71cf-4690-a3be-15dcd3c8a635",
+    "medical_record_number": "MRN7019349",
+    "first_name": "Steven",
+    "last_name": "Dixon",
+    "age": 57,
+    "gender": "Male",
+    "department": "Intensive Care Unit (ICU)",
+    "room": "B165",
+    "admission_date": "2025-06-04T13:46:40.346651",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Laceration",
+    "vitals": {
+      "heart_rate": 94,
+      "blood_pressure": "88/69",
+      "temperature": 36.3,
+      "respiratory_rate": 16,
+      "oxygen_saturation": 97,
+      "timestamp": "2025-06-16T13:46:40.346658"
+    },
+    "risk_score": 7,
+    "risk_assessment": {
+      "risk_level": "High",
+      "risk_score": 7,
+      "factors": {
+        "age_score": 1,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 3,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 2,
+        "length_of_stay_score": 1
+      },
+      "last_updated": "2025-06-16T13:46:40.346862"
+    },
+    "risk_level": "High"
+  },
+  {
+    "patient_id": "1d18208b-8a07-418e-928d-aedfe1558429",
+    "medical_record_number": "MRN35527043",
+    "first_name": "Billy",
+    "last_name": "Jones",
+    "age": 80,
+    "gender": "Male",
+    "department": "Neurology",
+    "room": "D166",
+    "admission_date": "2025-06-14T13:47:34.400083",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Leukemia",
+    "vitals": {
+      "heart_rate": 83,
+      "blood_pressure": "131/88",
+      "temperature": 36.5,
+      "respiratory_rate": 16,
+      "oxygen_saturation": 91,
+      "timestamp": "2025-06-16T13:47:34.400136"
+    },
+    "risk_score": 6,
+    "risk_assessment": {
+      "risk_level": "Medium",
+      "risk_score": 6,
+      "factors": {
+        "age_score": 3,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 1,
+        "department_score": 2,
+        "length_of_stay_score": 0
+      },
+      "last_updated": "2025-06-16T13:47:34.401552"
+    },
+    "risk_level": "Medium"
+  },
+  {
+    "patient_id": "27d194d1-6a51-482b-a680-7fc82acf2906",
+    "medical_record_number": "MRN90364742",
+    "first_name": "Alexander",
+    "last_name": "Dudley",
+    "age": 94,
+    "gender": "Male",
+    "department": "Emergency",
+    "room": "D209",
+    "admission_date": "2025-06-06T13:47:34.400568",
+    "discharge_date": "2025-06-25T13:47:34.400568",
+    "status": "Discharged",
+    "diagnosis": "Epilepsy",
+    "vitals": {
+      "heart_rate": 90,
+      "blood_pressure": "94/62",
+      "temperature": 37.0,
+      "respiratory_rate": 20,
+      "oxygen_saturation": 97,
+      "timestamp": "2025-06-16T13:47:34.400600"
+    },
+    "risk_score": 7,
+    "risk_assessment": {
+      "risk_level": "High",
+      "risk_score": 7,
+      "factors": {
+        "age_score": 3,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 2,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 1,
+        "length_of_stay_score": 1
+      },
+      "last_updated": "2025-06-16T13:47:34.401565"
+    },
+    "risk_level": "High"
+  },
+  {
+    "patient_id": "a6f1bc2c-5add-4333-9ae0-6e3fb5bac13d",
+    "medical_record_number": "MRN32622588",
+    "first_name": "Mary",
+    "last_name": "James",
+    "age": 96,
+    "gender": "Female",
+    "department": "Maternity",
+    "room": "A579",
+    "admission_date": "2025-06-10T13:47:34.400830",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Stroke",
+    "vitals": {
+      "heart_rate": 75,
+      "blood_pressure": "136/69",
+      "temperature": 37.0,
+      "respiratory_rate": 15,
+      "oxygen_saturation": 91,
+      "timestamp": "2025-06-16T13:47:34.400854"
+    },
+    "risk_score": 4,
+    "risk_assessment": {
+      "risk_level": "Low",
+      "risk_score": 4,
+      "factors": {
+        "age_score": 3,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 1,
+        "department_score": 0,
+        "length_of_stay_score": 0
+      },
+      "last_updated": "2025-06-16T13:47:34.401577"
+    },
+    "risk_level": "Low"
+  },
+  {
+    "patient_id": "9618160b-66fa-4799-ab4a-6dc40cc22777",
+    "medical_record_number": "MRN15797694",
+    "first_name": "Megan",
+    "last_name": "Crawford",
+    "age": 39,
+    "gender": "Female",
+    "department": "Intensive Care Unit (ICU)",
+    "room": "C457",
+    "admission_date": "2025-06-13T13:47:34.401080",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Hypertension",
+    "vitals": {
+      "heart_rate": 68,
+      "blood_pressure": "91/79",
+      "temperature": 36.4,
+      "respiratory_rate": 15,
+      "oxygen_saturation": 95,
+      "timestamp": "2025-06-16T13:47:34.401104"
+    },
+    "risk_score": 4,
+    "risk_assessment": {
+      "risk_level": "Medium",
+      "risk_score": 4,
+      "factors": {
+        "age_score": 0,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 2,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 2,
+        "length_of_stay_score": 0
+      },
+      "last_updated": "2025-06-16T13:47:34.401586"
+    },
+    "risk_level": "Medium"
+  },
+  {
+    "patient_id": "25510ce9-1f73-4aa1-aa7b-d4a68af8330e",
+    "medical_record_number": "MRN62274454",
+    "first_name": "Tyler",
+    "last_name": "Hardin",
+    "age": 91,
+    "gender": "Male",
+    "department": "Surgery",
+    "room": "C311",
+    "admission_date": "2025-06-12T13:47:34.401308",
+    "discharge_date": "2025-07-08T13:47:34.401308",
+    "status": "Discharged",
+    "diagnosis": "Ear Infection",
+    "vitals": {
+      "heart_rate": 71,
+      "blood_pressure": "109/85",
+      "temperature": 36.4,
+      "respiratory_rate": 19,
+      "oxygen_saturation": 99,
+      "timestamp": "2025-06-16T13:47:34.401333"
+    },
+    "risk_score": 4,
+    "risk_assessment": {
+      "risk_level": "Medium",
+      "risk_score": 4,
+      "factors": {
+        "age_score": 3,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 1,
+        "length_of_stay_score": 0
+      },
+      "last_updated": "2025-06-16T13:47:34.401594"
+    },
+    "risk_level": "Medium"
+  },
+  {
+    "patient_id": "085463b0-b8ca-44e4-91d6-465da3bb1b93",
+    "medical_record_number": "MRN49905216",
+    "first_name": "Patricia",
+    "last_name": "Henson",
+    "age": 16,
+    "gender": "Female",
+    "department": "Surgery",
+    "room": "C328",
+    "admission_date": "2025-06-16T13:47:41.626584",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Coronary Artery Disease",
+    "vitals": {
+      "heart_rate": 83,
+      "blood_pressure": "105/67",
+      "temperature": 37.2,
+      "respiratory_rate": 18,
+      "oxygen_saturation": 94,
+      "timestamp": "2025-06-16T13:47:41.626655"
+    },
+    "risk_score": 1,
+    "risk_assessment": {
+      "risk_level": "Low",
+      "risk_score": 1,
+      "factors": {
+        "age_score": 0,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 1,
+        "length_of_stay_score": 0
+      },
+      "last_updated": "2025-06-16T13:47:41.628299"
+    },
+    "risk_level": "Low"
+  },
+  {
+    "patient_id": "70a3031e-11b3-4642-a3ad-abd22ab5a272",
+    "medical_record_number": "MRN64989988",
+    "first_name": "Tiffany",
+    "last_name": "Terry",
+    "age": 25,
+    "gender": "Female",
+    "department": "Intensive Care Unit (ICU)",
+    "room": "C144",
+    "admission_date": "2025-06-10T13:47:41.627064",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Concussion",
+    "vitals": {
+      "heart_rate": 87,
+      "blood_pressure": "135/75",
+      "temperature": 36.3,
+      "respiratory_rate": 12,
+      "oxygen_saturation": 100,
+      "timestamp": "2025-06-16T13:47:41.627093"
+    },
+    "risk_score": 2,
+    "risk_assessment": {
+      "risk_level": "Low",
+      "risk_score": 2,
+      "factors": {
+        "age_score": 0,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 2,
+        "length_of_stay_score": 0
+      },
+      "last_updated": "2025-06-16T13:47:41.628310"
+    },
+    "risk_level": "Low"
+  },
+  {
+    "patient_id": "477e5bd0-ce78-4a5d-85a1-144ba87c6a86",
+    "medical_record_number": "MRN2267476",
+    "first_name": "Tracy",
+    "last_name": "Garcia",
+    "age": 75,
+    "gender": "Female",
+    "department": "Orthopedics",
+    "room": "B382",
+    "admission_date": "2025-06-10T13:47:41.627319",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Laceration",
+    "vitals": {
+      "heart_rate": 66,
+      "blood_pressure": "126/79",
+      "temperature": 37.0,
+      "respiratory_rate": 14,
+      "oxygen_saturation": 90,
+      "timestamp": "2025-06-16T13:47:41.627344"
+    },
+    "risk_score": 3,
+    "risk_assessment": {
+      "risk_level": "Low",
+      "risk_score": 3,
+      "factors": {
+        "age_score": 2,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 1,
+        "department_score": 0,
+        "length_of_stay_score": 0
+      },
+      "last_updated": "2025-06-16T13:47:41.628320"
+    },
+    "risk_level": "Low"
+  },
+  {
+    "patient_id": "4ccbca0b-de2f-4dea-88a2-f535c1d934c9",
+    "medical_record_number": "MRN85550638",
+    "first_name": "Raymond",
+    "last_name": "Hill",
+    "age": 53,
+    "gender": "Male",
+    "department": "Maternity",
+    "room": "D545",
+    "admission_date": "2025-06-11T13:47:41.627623",
+    "discharge_date": null,
+    "status": "Admitted",
+    "diagnosis": "Lymphoma",
+    "vitals": {
+      "heart_rate": 80,
+      "blood_pressure": "131/91",
+      "temperature": 36.7,
+      "respiratory_rate": 12,
+      "oxygen_saturation": 95,
+      "timestamp": "2025-06-16T13:47:41.627679"
+    },
+    "risk_score": 1,
+    "risk_assessment": {
+      "risk_level": "Low",
+      "risk_score": 1,
+      "factors": {
+        "age_score": 1,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 0,
+        "length_of_stay_score": 0
+      },
+      "last_updated": "2025-06-16T13:47:41.628328"
+    },
+    "risk_level": "Low"
+  },
+  {
+    "patient_id": "e9e7d34c-aad2-4499-8679-d14f353cca30",
+    "medical_record_number": "MRN84464885",
+    "first_name": "David",
+    "last_name": "Hicks",
+    "age": 67,
+    "gender": "Male",
+    "department": "Surgery",
+    "room": "C514",
+    "admission_date": "2025-06-03T13:47:41.628019",
+    "discharge_date": "2025-07-01T13:47:41.628019",
+    "status": "Discharged",
+    "diagnosis": "Leukemia",
+    "vitals": {
+      "heart_rate": 79,
+      "blood_pressure": "120/79",
+      "temperature": 36.1,
+      "respiratory_rate": 17,
+      "oxygen_saturation": 96,
+      "timestamp": "2025-06-16T13:47:41.628051"
+    },
+    "risk_score": 4,
+    "risk_assessment": {
+      "risk_level": "Medium",
+      "risk_score": 4,
+      "factors": {
+        "age_score": 2,
+        "heart_rate_score": 0,
+        "blood_pressure_score": 0,
+        "temperature_score": 0,
+        "oxygen_score": 0,
+        "department_score": 1,
+        "length_of_stay_score": 1
+      },
+      "last_updated": "2025-06-16T13:47:41.628336"
+    },
+    "risk_level": "Medium"
+  }
+]
