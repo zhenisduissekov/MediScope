@@ -19,7 +19,18 @@ MediScope is a real-time healthcare data visualization and monitoring platform d
    cd mediscope
    ```
 
-2. Install the required dependencies:
+2. Create and activate a virtual environment (recommended):
+   ```bash
+   # On macOS/Linux
+   python3 -m venv venv
+   source venv/bin/activate
+
+   # On Windows
+   # python -m venv venv
+   # .\venv\Scripts\activate
+   ```
+
+3. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```

@@ -110,7 +110,11 @@ selected_status = st.sidebar.selectbox(
 )
 
 # Search
-search_term = st.sidebar.text_input("Search Patients")
+search_term = st.sidebar.text_input(
+    "Search Patients",
+    placeholder="Search by name, MRN, or room...",
+    help="Try searching by first/last name (e.g., 'sanchez'), MRN (e.g., 'MRN10818'), or room number (e.g., 'D197')"
+)
 
 # Apply filters
 filters = {}
